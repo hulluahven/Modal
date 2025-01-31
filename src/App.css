@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+p {
+  margin: 20px;
+}
+
+.button {
+  margin: 0 auto;
+  width: 300px;
+  cursor: pointer;
+  background-color: #1E22AA;
+  color: #fff;
+  padding: 20px 30px;
+  border: none;
+  font-family: "Futura PT", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-out;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: #1E22AA;
+  border: 1px solid #1E22AA;
+  transition: all 0.5s ease-out;
+}
